@@ -17,22 +17,8 @@ The ViewModel is responsible for wrapping the model and preparing observable dat
 It also provides hooks for the view to pass events to the model. The ViewModel is not tied to the view however.
 
 View ([tictactoe.xml](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/res/layout/tictactoe.xml) [menu_tictactoe.xml](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/res/menu/menu_tictactoe.xml) [TicTacToeActivity](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/view/TicTacToeActivity.java))
-|
-|
-|
-Invoke Action , Bind to Data
-|
-|
-+
-ViewModel ([ViewModel <Interface>](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/viewmodel/ViewModel.java) [TicTacToeViewModel](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/viewmodel/TicTacToeViewModel.java))
-|
-|
-|
-Interact with
-|
-|
-+
-Model ([Board](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/model/Board.java) [Cell](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/model/Cell.java) [Player](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/model/Player.java))
+---Invoke Action , Bind to Data --> ViewModel ([ViewModel <Interface>](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/viewmodel/ViewModel.java) [TicTacToeViewModel](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/viewmodel/TicTacToeViewModel.java))
+---Interact with--> Model ([Board](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/model/Board.java) [Cell](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/model/Cell.java) [Player](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/model/Player.java))
 
 Let’s take a closer look at the some of the moving parts here, starting with the ViewModel. [TicTacToeViewModel](https://github.com/nguyenkien25/TicTacToe-mvvm/blob/master/app/src/main/java/com/acme/tictactoe/viewmodel/TicTacToeViewModel.java)
 
